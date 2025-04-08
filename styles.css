@@ -171,12 +171,6 @@ a {
   padding: 4rem 0;
 }
 
-.blue-bg {
-  background-color: #1e2a50;
-  background-image: url(/fm.kalmont.github.io/);
-  color: #fff;
-}
-
 .orange {
   background-color: #ff5f1f;
   color: #fff;
@@ -207,6 +201,7 @@ a {
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
+*/ 
 
 /* Cards */
 .card {
@@ -247,48 +242,6 @@ a {
   padding-left: 0;
 }
 
-.list li {
-  position: relative;
-  padding-left: 1.2rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.list li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-}
-
-.list-numbered {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.list-numbered li {
-  position: relative;
-  padding-left: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.list-numbered li::before {
-  content: counter(item) ".";
-  counter-increment: item;
-  position: absolute;
-  left: 0;
-}
-
-.list-spaced {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.list-spaced li {
-  margin-bottom: 0.8rem;
-  font-size: 0.9rem;
-}
-
 /* Text Groups */
 .text-group > div {
   margin-bottom: 1.5rem;
@@ -318,21 +271,6 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-/* Buttons */
-.btn {
-  background-color: #ff5f1f;
-  color: white;
-  border: none;
-  border-radius: 9999px;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #e55518;
 }
 
 /* News Items */
