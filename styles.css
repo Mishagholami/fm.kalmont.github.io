@@ -373,6 +373,124 @@ a {
   object-fit: cover;
 }
 
+/*footer*/
+
+footer {
+  background: #fc6c3c;
+  color: rgb(255, 255, 255);
+  padding: 40px 20px;
+  margin-top: auto;
+  width: 100%;
+  font-family: "Asap", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.footer-info,
+.footer-social {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-info h3,
+.footer-social h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-info p,
+.footer-info p a,
+.footer-social ul {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-info p {
+  margin-bottom: 7px;
+}
+.footer-social ul {
+  padding: 0 !important;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-social ul li {
+  text-align: left;
+  margin-bottom: 7px;
+  margin-right: 35px;
+}
+
+.footer-social ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-social ul li a:hover {
+  color: #161c4a;
+}
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info,
+  .footer-social {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .footer-social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-info,
+  .footer-social {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .footer-social ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
   .row {
